@@ -140,4 +140,4 @@ const Pokedex = () => {
     )
 }
 
-export default Pokede
+export default Pokedex
