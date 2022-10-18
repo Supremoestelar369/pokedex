@@ -14,7 +14,7 @@
   --green-color: #3ba85e;
   --light-blue-color: #fa1515;
   --blue-color: #0aab88;
-  --red-color:  #c30606;
+  --red-color:  #ac0101;
   --purple-color: #03b630;
   --brown-color: #8b5831;
   --yellow-color: #749f07;
@@ -204,7 +204,7 @@ h3 {
   content: '';
   width: 10rem;
   height: 5rem;
-  background-color: #ac0101;
+  background-color:  #c30606;
   border-radius: 4.9rem 4.9rem 0 0;
   position: absolute;
 }
