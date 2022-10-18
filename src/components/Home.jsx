@@ -28,7 +28,7 @@ const Home = () => {
 
          </div>
          <section className="inf-userName flex">
-            <h2 className='inf-userName__h2'>{`Hello Welcome   ${userName}`}</h2>
+            <h2 className='inf-userName__h2'>{`Hello Welcome     ${userName}`}</h2>
             <h3 className='inf-userName__p-big-font'>Here you can find your favorite pokemon.</h3>
          </section>
 
