@@ -14,7 +14,7 @@ const Login = () => {
    const handleSubmit = e => {
       const name = (e.target.children[0].value)
 
-      if(name === '' || name.length < 3) {
+      if(name === '' || name.length < 4) {
          console.log('error papus')
          setError(true)
       }
@@ -43,7 +43,7 @@ const Login = () => {
             <input className='login__input' type="text" placeholder='Your User' />
             <label className='login__label' htmlFor="name">UserName</label>
 
-            { error && <p className='p__error'>Please enter a username, letters or numbers </p>  }
+            { error && <p className='p__error'>Please enter a username, 4 characters minimun </p>  }
 
             <button className='login__buton'>Login</button>
 
