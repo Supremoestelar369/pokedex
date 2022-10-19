@@ -28,7 +28,7 @@ const Login = () => {
       <div className='login flex'>
 
          <div className="login__header flex">
-            <h3 className='login__header-h3'>It is important that you put your user</h3>
+            <h3 className='login__header-h3'>Live to the fullest, the experience of accessing all the content Find your pokemon</h3>
 
             <div className="pokeball">
                <div className="details"></div>
@@ -40,10 +40,10 @@ const Login = () => {
          </div>
 
          <form className='login__form flex' action="" onSubmit={handleSubmit}>
-            <input className='login__input' type="text" placeholder='Full name' />
+            <input className='login__input' type="text" placeholder='>Your User' />
             <label className='login__label' htmlFor="name">Username</label>
 
-            { error && <p className='p__error'>write a valid name greater than 3 letters</p>  }
+            { error && <p className='p__error'>Please enter a username, letters or numbers </p>  }
 
             <button className='login__buton'>Login</button>
 
