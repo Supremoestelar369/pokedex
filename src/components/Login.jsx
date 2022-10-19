@@ -41,7 +41,7 @@ const Login = () => {
 
          <form className='login__form flex' action="" onSubmit={handleSubmit}>
             <input className='login__input' type="text" placeholder='Your User' />
-            <label className='login__label' htmlFor="name">Username</label>
+            <label className='login__label' htmlFor="name">UserName</label>
 
             { error && <p className='p__error'>Please enter a username, letters or numbers </p>  }
 
