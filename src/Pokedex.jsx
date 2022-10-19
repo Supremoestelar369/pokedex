@@ -84,7 +84,7 @@ const Pokedex = () => {
     return (
         <main className='pokedex flex'>
             <div className="pokedex__num-poke">
-                <p className='pokedex__p-number'> {numberPokemons} Pokemons for you tu choose your favorite</p>
+                <p className='pokedex__p-number'> {numberPokemons}Choose your favorite pokemon</p>
             </div>
             <div className="filter flex">
                 <InputSearch
