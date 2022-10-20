@@ -58,7 +58,11 @@ const Pagination = ({ pokemons, filterPokemon, setPokemonsPagination, pokemonsPa
                     <button onClick={() => setCurrentPage(currentPage)} className='pagination__btn'>{currentPage}</button>
                     <button onClick={() => setCurrentPage((currentPage + 1))} className='pagination__btn'>{currentPage +1}</button>
                     <button onClick={() => setCurrentPage((currentPage + 2))} className='pagination__btn'>{currentPage +2}</button>
-
+                    <button onClick={() => setCurrentPage((currentPage + 3))} className='pagination__btn'>{currentPage +3}</button>
+                    <button onClick={() => setCurrentPage((currentPage + 4))} className='pagination__btn'>{currentPage +4}</button>
+                    <button onClick={() => setCurrentPage((currentPage + 5))} className='pagination__btn'>{currentPage +5}</button>
+                    <button onClick={() => setCurrentPage((currentPage + 6))} className='pagination__btn'>{currentPage +6}</button>
+                    <button onClick={() => setCurrentPage((currentPage + 7))} className='pagination__btn'>{currentPage +7}</button>
 
                     <button onClick={nextPage} className='pagination__btn'>&#62;</button>
                     <button onClick={() => setCurrentPage(pageNumbers.length)} className='pagination__btn'>&#62;&#62;</button>
