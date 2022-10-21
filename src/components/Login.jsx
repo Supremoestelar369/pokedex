@@ -40,7 +40,7 @@ const Login = () => {
          </div>
 
          <form className='login__form flex' action="" onSubmit={handleSubmit}>
-            <input className='login__input' type="text" placeholder='Your User' />
+            <input className='login__input' type="text" placeholder='Hello Trainer!!' />
             <label className='login__label' htmlFor="name">UserName</label>
 
             { error && <p className='p__error'>Please enter a username, 4 characters minimun </p>  }
